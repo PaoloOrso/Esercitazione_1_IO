@@ -39,7 +39,7 @@ int main()
         i++;
         sumValues += val;
         mean = sumValues / i;
-        filename2 << i << " " << std::scientific << mean << std::endl;  //serve solo cambiare il formato della media da inserire nel file
+        filename2 << i << " " << std::scientific << mean << std::endl;
 
     }
     filename3.close();
